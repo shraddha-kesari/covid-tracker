@@ -1,0 +1,14 @@
+.tracker-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: #eeeef4;
+  padding: 50px;
+}
+.heading {
+  grid-row: 1;
+  grid-column: 1/5;
+  text-align: center;
+  align-self: center;
+  font-family: monospace;
+}

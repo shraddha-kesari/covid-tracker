@@ -1,0 +1,29 @@
+.box {
+  grid-row: 2;
+  justify-self: center;
+  text-align: center;
+  border-radius: 15%;
+  height: 150px;
+  width: 200px;
+  margin: 0 20px;
+  background-color: white;
+  font-family: monospace;
+}
+.title {
+  font-size: 16px;
+}
+.count {
+  font-size: 30px;
+}
+.confirmed-count {
+  color: #ff4848;
+}
+.active-count {
+  color: tomato;
+}
+.recovered-count {
+  color: #77d577;
+}
+.death-count {
+  color: #b182ee;
+}
